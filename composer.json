@@ -15,7 +15,7 @@
         "ebremner17/cc_site_controller": {
             "type": "vcs",
             "url": "https://github.com/ebremner17/cc_site_controller.git"
-        },
+        }
     },
     "conflict": {
         "drupal/drupal": "*",
