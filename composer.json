@@ -1,0 +1,46 @@
+{
+    "name": "cadets_canada/cadets_canada",
+    "description": "A drupal profile for Cadets Canada",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    },
+    "conflict": {
+        "drupal/drupal": "*",
+        "ebremner17/ebremner17": "*"
+    },
+    "config": {
+        "secure-http": false,
+        "sort-packages": true,
+        "vendor-dir": "../../vendor"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "drupal/layout_builder_modal": "1.0-alpha1",
+        "drupal/layout_builder_restrictions": "2.2"
+    },
+    "extra": {
+        "installer-types": [
+            "drupal",
+            "ebremner17"
+        ],
+        "installer-paths": {
+            "../../core": [
+                "type:drupal-core"
+            ],
+            "modules/features/{$name}": [
+                "type:module"
+            ],
+            "modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "themes/{$name}": [
+                "type:theme"
+            ]
+        }
+    }
+}
