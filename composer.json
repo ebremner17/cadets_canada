@@ -15,7 +15,7 @@
         "ebremner17/cc_site_controller": {
             "type": "vcs",
             "url": "https://github.com/ebremner17/cc_site_controller.git"
-        },
+        }
     },
     "conflict": {
         "drupal/drupal": "*",
@@ -33,6 +33,7 @@
         "oomphinc/composer-installers-extender": "v1.1.2",
         "drupal/layout_builder_modal": "1.0-alpha1",
         "drupal/layout_builder_restrictions": "2.2",
+        "ebremner17/cadets_canada_theme": "dev-8.x-1.x",
         "ebremner17/cc_site_controller": "dev-8.x-1.x"
     },
     "extra": {
