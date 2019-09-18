@@ -8,14 +8,19 @@
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         },
+        "ebremner17/cadets_canada_theme": {
+            "type": "vcs",
+            "url": "https://github.com/ebremner17/cadets_canada_theme.git"
+        },
         "ebremner17/cc_site_controller": {
             "type": "vcs",
             "url": "https://github.com/ebremner17/cc_site_controller.git"
-        }
+        },
     },
     "conflict": {
         "drupal/drupal": "*",
-        "drupal-custom-module/drupal-custom-module": "*"
+        "drupal-custom-module/drupal-custom-module": "*",
+        "drupal-custom-theme/drupal-custom-theme": "*"
     },
     "config": {
         "secure-http": false,
@@ -46,7 +51,7 @@
                 "type:drupal-module"
             ],
             "themes/{$name}": [
-                "type:theme"
+                "type:drupal-custom-theme"
             ]
         }
     }
