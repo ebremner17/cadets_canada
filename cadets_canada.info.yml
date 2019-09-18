@@ -1,0 +1,4 @@
+name: Cadets Canada profile
+type: profile
+description: 'A copy of the standard install with some presets configured.'
+core: 8.x
