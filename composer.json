@@ -7,11 +7,15 @@
         "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        "ebremner17/cc_site_controller": {
+            "type": "vcs",
+            "url": "https://github.com/ebremner17/cc_site_controller.git"
         }
     },
     "conflict": {
         "drupal/drupal": "*",
-        "ebremner17/ebremner17": "*"
+        "drupal-custom-module/drupal-custom-module": "*"
     },
     "config": {
         "secure-http": false,
@@ -26,14 +30,14 @@
     "extra": {
         "installer-types": [
             "drupal",
-            "ebremner17"
+            "drupal-custom-module"
         ],
         "installer-paths": {
             "../../core": [
                 "type:drupal-core"
             ],
             "modules/features/{$name}": [
-                "type:module"
+                "type:drupal-custom-module"
             ],
             "modules/contrib/{$name}": [
                 "type:drupal-module"
