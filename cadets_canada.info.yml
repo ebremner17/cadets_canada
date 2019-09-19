@@ -39,6 +39,8 @@ install:
   - tour
   - automated_cron
   - cc_site_controller
+  - cc_media
 themes:
+  - cadets_canada_theme
   - bartik
   - seven
