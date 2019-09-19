@@ -20,10 +20,6 @@
         "ebremner17/cc_site_controller": {
             "type": "vcs",
             "url": "https://github.com/ebremner17/cc_site_controller.git"
-        },
-        "ebremner17/cc_web_page": {
-            "type": "vcs",
-            "url": "https://github.com/ebremner17/cc_web_page.git"
         }
     },
     "conflict": {
@@ -56,7 +52,6 @@
         "drupal/user_registrationpassword": "1.0-alpha3",
         "ebremner17/cadets_canada_theme": "dev-8.x-1.x",
         "ebremner17/cc_site_controller": "dev-8.x-1.x",
-        "ebremner17/cc_web_page": "dev-8.x-1.x",
         "lullabot/entity_browser_block_layout": "master"
     },
     "extra": {
