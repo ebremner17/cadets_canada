@@ -17,6 +17,10 @@
             "type": "vcs",
             "url": "https://github.com/ebremner17/cadets_canada_theme.git"
         },
+        "ebremner17/cc_media": {
+            "type": "vcs",
+            "url": "https://github.com/ebremner17/cc_media.git"
+        },
         "ebremner17/cc_site_controller": {
             "type": "vcs",
             "url": "https://github.com/ebremner17/cc_site_controller.git"
@@ -55,6 +59,7 @@
         "drupal/pathauto": "1.4",
         "drupal/user_registrationpassword": "1.0-alpha3",
         "ebremner17/cadets_canada_theme": "dev-8.x-1.x",
+        "ebremner17/cc_media": "dev-8.x-1.x",
         "ebremner17/cc_site_controller": "dev-8.x-1.x",
         "ebremner17/web_page": "dev-8.x-1.x",
         "lullabot/entity_browser_block_layout": "master"
