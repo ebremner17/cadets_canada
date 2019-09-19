@@ -38,6 +38,7 @@ install:
   - views_ui
   - tour
   - automated_cron
+  - cc_site_controller
 themes:
   - bartik
   - seven
