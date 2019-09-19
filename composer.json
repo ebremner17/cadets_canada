@@ -8,6 +8,11 @@
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         },
+        "lullabot/entity_browser_block_layout": {
+            "type": "vcs",
+            "url": "https://github.com/lullabot/entity_browser_block_layout.git",
+            "no-api": true
+        },
         "ebremner17/cadets_canada_theme": {
             "type": "vcs",
             "url": "https://github.com/ebremner17/cadets_canada_theme.git"
@@ -15,6 +20,10 @@
         "ebremner17/cc_site_controller": {
             "type": "vcs",
             "url": "https://github.com/ebremner17/cc_site_controller.git"
+        },
+        "ebremner17/cc_web_page": {
+            "type": "vcs",
+            "url": "https://github.com/ebremner17/cc_web_page.git"
         }
     },
     "conflict": {
@@ -39,13 +48,16 @@
         "drupal/entity_browser_block": "1.0",
         "drupal/features": "3.8",
         "drupal/image_widget_crop": "2.2",
-        "drupal/layout_builder_modal": "1.0-alpha1",
+        "drupal/inline_entity_form": "1.0-rc2",
+        "drupal/layout_builder_modal": "1.0-alpha2",
         "drupal/layout_builder_restrictions": "2.2",
         "drupal/mailsystem": "4.1",
         "drupal/pathauto": "1.4",
         "drupal/user_registrationpassword": "1.0-alpha3",
         "ebremner17/cadets_canada_theme": "dev-8.x-1.x",
-        "ebremner17/cc_site_controller": "dev-8.x-1.x"
+        "ebremner17/cc_site_controller": "dev-8.x-1.x",
+        "ebremner17/cc_web_page": "dev-8.x-1.x",
+        "lullabot/entity_browser_block_layout": "master"
     },
     "extra": {
         "installer-types": [
