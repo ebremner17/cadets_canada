@@ -43,11 +43,14 @@
     "minimum-stability": "dev",
     "require": {
         "composer/installers": "^1.7",
+        "cweagans/composer-patches": "1.6.3",
         "oomphinc/composer-installers-extender": "v1.1.2",
         "drupal/core": "8.7.7",
         "drupal/devel": "2.1",
+        "drupal/cacheflush": "1.0-beta3",
         "drupal/config_update": "1.6",
         "drupal/crop": "2.0-rc1",
+        "drupal/eck": "1.0-alpha5",
         "drupal/entity_browser": "2.2",
         "drupal/entity_browser_block": "1.0",
         "drupal/features": "3.8",
@@ -57,7 +60,9 @@
         "drupal/layout_builder_restrictions": "2.2",
         "drupal/mailsystem": "4.1",
         "drupal/pathauto": "1.4",
+        "drupal/publishcontent": "1.1",
         "drupal/user_registrationpassword": "1.0-alpha3",
+        "drupal/we_megamenu": "1.5",
         "ebremner17/cadets_canada_theme": "dev-8.x-1.x",
         "ebremner17/cc_media": "dev-8.x-1.x",
         "ebremner17/cc_site_controller": "dev-8.x-1.x",
@@ -82,6 +87,12 @@
             "themes/{$name}": [
                 "type:drupal-custom-theme"
             ]
+        },
+        "patches": {
+            "drupal/eck": {
+                "After 8.7.x core update install profile with ECK config has fatal errors on install": "https://www.drupal.org/files/issues/2019-07-17/%203055007-8-after-8.7-core-update-fatal-errors-on-install-profile-install.patch"
+            }
         }
+
     }
 }
