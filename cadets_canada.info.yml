@@ -40,6 +40,9 @@ install:
   - automated_cron
   - cc_site_controller
   - cc_media
+  - cc_alerts
+  - cc_announcements
+  - web_page
 themes:
   - cadets_canada_theme
   - bartik
