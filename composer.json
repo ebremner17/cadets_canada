@@ -17,6 +17,10 @@
             "type": "vcs",
             "url": "https://github.com/ebremner17/cadets_canada_theme.git"
         },
+        "ebremner17/cc_alerts": {
+            "type": "vcs",
+            "url": "https://github.com/ebremner17/cc_alerts.git"
+        },
         "ebremner17/cc_announcements": {
             "type": "vcs",
             "url": "https://github.com/ebremner17/cc_announcements.git"
@@ -24,6 +28,10 @@
         "ebremner17/cc_media": {
             "type": "vcs",
             "url": "https://github.com/ebremner17/cc_media.git"
+        },
+        "ebremner17/cc_news": {
+            "type": "vcs",
+            "url": "https://github.com/ebremner17/cc_news.git"
         },
         "ebremner17/cc_site_controller": {
             "type": "vcs",
@@ -70,8 +78,10 @@
         "drupal/user_registrationpassword": "1.0-alpha3",
         "drupal/we_megamenu": "1.5",
         "ebremner17/cadets_canada_theme": "dev-8.x-1.x",
+        "ebremner17/cc_alerts": "dev-8.x-1.x",
         "ebremner17/cc_announcements": "dev-8.x-1.x",
         "ebremner17/cc_media": "dev-8.x-1.x",
+        "ebremner17/cc_news": "dev-8.x-1.x",
         "ebremner17/cc_site_controller": "dev-8.x-1.x",
         "ebremner17/web_page": "dev-8.x-1.x",
         "lullabot/entity_browser_block_layout": "master"
