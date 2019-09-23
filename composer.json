@@ -81,6 +81,7 @@
         "drupal/mailsystem": "4.1",
         "drupal/pathauto": "1.4",
         "drupal/publishcontent": "1.1",
+        "drupal/redirect_after_login": "2.5",
         "drupal/smtp": "1.0-beta4",
         "drupal/twig_field_value": "1.2",
         "drupal/user_registrationpassword": "1.0-alpha3",

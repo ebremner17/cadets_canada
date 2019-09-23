@@ -42,6 +42,7 @@ install:
   - cc_media
   - cc_alerts
   - cc_announcements
+  - cc_news
   - cc_routine_orders
   - cc_training_plan
   - web_page
