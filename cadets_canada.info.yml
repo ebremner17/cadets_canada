@@ -42,6 +42,7 @@ install:
   - cc_media
   - cc_alerts
   - cc_announcements
+  - cc_routine_orders
   - web_page
 themes:
   - cadets_canada_theme
