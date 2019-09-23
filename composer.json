@@ -41,6 +41,10 @@
             "type": "vcs",
             "url": "https://github.com/ebremner17/cc_site_controller.git"
         },
+        "ebremner17/cc_training_pan": {
+            "type": "vcs",
+            "url": "https://github.com/ebremner17/cc_training_plan.git"
+        },
         "ebremner17/web_page": {
             "type": "vcs",
             "url": "https://github.com/ebremner17/web_page.git"
@@ -88,6 +92,7 @@
         "ebremner17/cc_news": "dev-8.x-1.x",
         "ebremner17/cc_routine_orders": "dev-8.x-1.x",
         "ebremner17/cc_site_controller": "dev-8.x-1.x",
+        "ebremner17/cc_training_plan": "dev-8.x-1.x",
         "ebremner17/web_page": "dev-8.x-1.x",
         "lullabot/entity_browser_block_layout": "master"
     },

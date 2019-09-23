@@ -43,6 +43,7 @@ install:
   - cc_alerts
   - cc_announcements
   - cc_routine_orders
+  - cc_training_plan
   - web_page
 themes:
   - cadets_canada_theme
