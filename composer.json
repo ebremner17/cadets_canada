@@ -25,6 +25,10 @@
             "type": "vcs",
             "url": "https://github.com/ebremner17/cc_announcements.git"
         },
+        "ebremner17/cc_forum": {
+            "type": "vcs",
+            "url": "https://github.com/ebremner17/cc_forum.git"
+        },
         "ebremner17/cc_media": {
             "type": "vcs",
             "url": "https://github.com/ebremner17/cc_media.git"
@@ -91,6 +95,7 @@
         "ebremner17/cadets_canada_theme": "dev-8.x-1.x",
         "ebremner17/cc_alerts": "dev-8.x-1.x",
         "ebremner17/cc_announcements": "dev-8.x-1.x",
+        "ebremner17/cc_forum": "dev-8.x-1.x",
         "ebremner17/cc_media": "dev-8.x-1.x",
         "ebremner17/cc_news": "dev-8.x-1.x",
         "ebremner17/cc_routine_orders": "dev-8.x-1.x",
