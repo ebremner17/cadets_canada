@@ -85,6 +85,7 @@
         "drupal/smtp": "1.0-beta4",
         "drupal/twig_field_value": "1.2",
         "drupal/user_registrationpassword": "1.0-alpha3",
+        "drupal/video_embed_field": "2.2",
         "drupal/we_megamenu": "1.5",
         "ebremner17/cadets_canada_theme": "dev-8.x-1.x",
         "ebremner17/cc_alerts": "dev-8.x-1.x",
